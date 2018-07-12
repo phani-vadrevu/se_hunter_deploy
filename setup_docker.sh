@@ -1,7 +1,7 @@
 # From: https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce-1
 # Set up Docker APT Repository
 sudo apt-get update
-sudo apt-get install \
+sudo apt-get install -y \
     apt-transport-https \
     ca-certificates \
     curl \
@@ -14,7 +14,7 @@ sudo add-apt-repository \
 
 # Install Docker CE
 sudo apt-get update
-sudo apt-get install docker-ce
+sudo apt-get install -y docker-ce
 
 # Create a docker group and add this user there 
 sudo groupadd docker
