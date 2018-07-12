@@ -17,3 +17,5 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/#supported-storage-driver
     * docker service ls
     * docker container ls
 
+**Note**: Use sar if you want to monitor the system usage to decide the number of replicas:
+http://www.leonardoborda.com/blog/how-to-configure-sysstatsar-on-ubuntudebian/
