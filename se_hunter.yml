@@ -1,0 +1,10 @@
+version: "3"
+services:
+  web:
+    # replace username/repo:tag with your name and image details
+    image: pvadrevu/se_hunter 
+    deploy:
+      replicas: 10
+      restart_policy:
+        condition: any
+    command: service_test_lancia
