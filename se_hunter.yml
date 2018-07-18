@@ -4,9 +4,9 @@ services:
     # replace username/repo:tag with your name and image details
     image: pvadrevu/se_hunter 
     deploy:
-      replicas: 18
+      replicas: 1
       restart_policy:
         condition: any
     # For crawling use: 300 python processor.py lancia
-    # For milking part-1 use: 240 python milking_part_1.py lancia
-    command: 240 python milking_part_1.py lancia
+    # For milking part-1 use: 240 python processor_milk_1.py lancia_test
+    command: 240 python processor_milk_1.py lancia_test
