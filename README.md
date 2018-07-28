@@ -16,6 +16,7 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/#supported-storage-driver
 8. To check status:
     * docker service ls
     * docker container ls
+9. Run prune.py to frequently remove old stopped containers.
 
 **Note**: Use sar if you want to monitor the system usage to decide the number of replicas:
 http://www.leonardoborda.com/blog/how-to-configure-sysstatsar-on-ubuntudebian/
